@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    padding: 30px;
+}
+.logo img{
+    width: 120px;
+    height: auto;
+
+}
+a{
+    color: red;
+}
+
+ul li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+    margin: 20px;
+    
+    
+}
+button{
+    
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.img-img{
+    float: right;
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+p{
+    text-align: left;
+    padding: 30px;
+    color: blue;
+}
+h1{
+    padding: 30px;
+    color: blue;
+}
+.b{
+     font-size: 20px;
+    
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    color: blue;
+    margin: 30px;
+
+}
+.h2{
+    background-color:red;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+.card {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: none;
+    text-align: center;
+    margin:50px ;
+    border: 1px solid;
+    background-color:plum;
+    display: inline-block;
+    
+    
+}
+.card img {
+    width: 300px;
+    border-radius: 10px;
+    
+}
+.card button{
+    width: 200px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+    
