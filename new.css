@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    
+    
+    padding: 30px;
+}
+img{
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+
+}
+a{
+    color: red;
+}
+
+ul li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+    margin: 20px;
+}
+
+button{
+    
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+@media (max-width:600px){
+    .navbar {
+    flex-direction: column;
+    background-color: thistle;
+    text-align: center;
+} 
+img{
+    margin-left: 35%;
+}
+
+
+}
